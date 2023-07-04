@@ -1,0 +1,19 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# self-collected indoor dataset
+# Example usage: python train.py --data indoor.yaml
+# parent
+# ├── yolov5
+#   └── datasets
+#     └── indoor  ← data here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../yolov5_qiyue/datasets/indoor  # dataset root dir
+train: train2  # train images (relative to 'path') 128 images
+val: test2  # val images (relative to 'path') 128 images
+test:  dataset_test_2 # test images (optional)
+
+# Classes
+names:
+  0: person
+
