@@ -275,3 +275,4 @@ p_*.py
 runs_table.yaml
 !yolov5n.pt
 !yolov5s.pt
+!preview.png
